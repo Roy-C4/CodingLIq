@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    color: #505962;
+}
+
+.navbar{
+    
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+.navbar-nav li{
+    padding-right: .2rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    padding-top: 0.6rem;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #e61212;
+}
+  
+.btnLog{
+    font-size:0.91rem;
+    font-weight: 600;
+}
+.btnLog:hover{
+    color: #e61212;
+}
+/*slider*/
+
+.carousel-item{
+    height: 100%;
+}
+
+.collb{
+    margin-top: 2rem;
+}
+
+
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.6);
+  }
+
+.captionOne{
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+    
+}
+
+.captionTwo{
+    position: absolute;
+    top: 38%;
+    text-transform: uppercase;
+}
+.carousel-caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: #fdf4f4;
+    text-shadow: 0.1rem .1rem 0.8rem black;
+    
+}
+
+.carousel-caption h3{
+    padding-top: 3rem;
+}
+
+.abt-section{
+    padding-top:8.5rem ;
+    padding-bottom: 6rem;
+    padding-left: 2rem;
+    background-color: #de2f2f;
+    
+}
+
+hr.stile{ 
+        border: 0; 
+        height: 1.2px;
+        width: 70%; 
+        background-image: -webkit-linear-gradient(left, #8c8b8b, #f0f0f0, #8c8b8b);
+        background-image: -moz-linear-gradient(left,  #8c8b8b, #f0f0f0, #8c8b8b);
+        background-image: -ms-linear-gradient(left,  #8c8b8b, #f0f0f0, #8c8b8b);
+        background-image: -o-linear-gradient(left,  #8c8b8b, #f0f0f0, #8c8b8b);
+      
+}
+
+hr.stile3{ 
+    border: 0; 
+    height: 3px;
+    width: 20%; 
+    background-image: -webkit-linear-gradient(left,#f33232, #f10707, #f33232);
+    background-image: -moz-linear-gradient(left, #f33232, #f10707, #f33232);
+    background-image: -ms-linear-gradient(left, #f33232, #f10707, #f33232);
+    background-image: -o-linear-gradient(left,  #f33232, #f10707, #f33232);
+  
+}
+
+hr.stile2{ 
+    border: 0; 
+  height: 1.2px; 
+  width: 50%;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #df4040, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #df4040, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #df4040, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #df4040, #f0f0f0); 
+  
+}
+
+.btn-xl{
+    border-radius: 100px;
+    padding: 1.2rem 2rem;
+    font-weight: 600;
+}
+
+.serv-section{
+    padding-top:8.5rem ;
+    padding-bottom: 6rem;
+    padding-left: 2rem;
+}
+
+.clients img{
+    width: 100%;
+    border-radius: 40%;
+}
+
+.fa-quote-left, .fa-quote-right{
+    color: tomato;
+}
+
+
+.cntct-section{
+    padding-top:4rem ;
+    padding-bottom: 10px;
+    padding-left: 2rem;
+    background-color: #de2f2f;
+    color: #de2f2f;
+}
+
+.p-line{
+    font-weight: 500;
+    color: #f0e6e6;
+    font-size: large;
+}
+
+.mailink{
+    text-decoration: none;
+    color: white;
+}
+
+.mailink:hover{
+    color: turquoise;
+    text-emphasis: none;
+}
+
+.fa-envelope, .fa-phone{
+    color: white;
+}
+
+.socket{
+    width: 100%;
+   background-color: blanchedalmond;
+}
+
+.cpy{
+    color: white;
+    position: relative;
+    right: -39rem;
+    padding-bottom: 0;
+}
